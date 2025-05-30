@@ -53,7 +53,7 @@
 let cars 
 
 async function recupCars() {
-    const response = await fetch("https://run.mocky.io/v3/af81eec8-9da5-4edd-901c-b823f814809d")
+    const response = await fetch("./cars.json")
     cars = await response.json()
     cars = cars.cars
 
