@@ -1,0 +1,51 @@
+{"cars": [
+    {
+        "id": 1,
+        "brand": "Peugeot 208",
+        "type": "Diesel",
+        "doors": "5",
+        "GPS": "Yes",
+        "autoradio": "Yes",
+        "forfaitPerKm": "0,5",
+        "price": 999,
+        "agency": "Paris",
+        "url": "./img/c4173f1e-8ffc-486f-b94b-96be0f338f66.png"
+    },
+    {
+        "id": 2,
+        "brand": "Ford Focus",
+        "type": "Diesel",
+        "doors": "5",
+        "GPS": "Yes",
+        "autoradio": "Yes",
+        "forfaitPerKm": "0,5",
+        "price": 999,
+        "agency": "",
+        "url":"./img/09bca341-66df-4300-8276-490865325617.png"
+    },
+    {
+        "id": 3,
+        "brand": "Audi A1",
+        "type": "Diesel",
+        "doors": "5",
+        "GPS": "Yes",
+        "autoradio": "Yes",
+        "forfaitPerKm": "0,55",
+        "price": 1100,
+        "agency": "Paris",
+        "url":"./img/2a39b392-6dc9-478c-8c6a-990c150176fd.png"
+    },
+    {
+        "id": 4,
+        "brand": "Opel Mokka",
+        "type": "Diesel",
+        "doors": "5",
+        "GPS": "Yes",
+        "autoradio": "Yes",
+        "forfaitPerKm": "0,4",
+        "price": 1150,
+        "agency": "Paris",
+        "url":"./img/02c31279-46a9-4ff4-bf8a-242f86c26496.png"
+    }
+]
+}
