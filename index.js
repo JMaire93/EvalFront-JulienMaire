@@ -53,8 +53,9 @@
 let cars 
 
 async function recupCars() {
-    const response = await fetch("http://localhost:3000/cars")
+    const response = await fetch("https://run.mocky.io/v3/af81eec8-9da5-4edd-901c-b823f814809d")
     cars = await response.json()
+    cars = cars.cars
 
 
 // Récupération de la division html dans laquelle on va afficher nos véhicules
@@ -168,7 +169,7 @@ window.addEventListener("resize",(e)=>{
             return a.price - b.price
             })
         }
-        console.log(cars)
+        
         // On remplace le contenu HTML de la div contenant les cartes par un contenu vide afin de ne pas avoir les cartes que l'on avait déjà avant
         cartes.innerHTML = ""
         // On relance la fonction qui affiche les cartes selon le medium sur lequel on est
